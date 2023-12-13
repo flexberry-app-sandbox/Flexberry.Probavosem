@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probavosem-регистр-гостей-e",
+  "editForm": "i-i-s-probavosem-регистр-гостей-e",
+  "external": false,
+  "caption": "Регистр гостей",
+  "name": "IISProbavosemРегистрГостейL",
+  "className": "РегистрГостейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probavosem-регистр-гостей",
+      "modelProjection": "РегистрГостейL"
+    }
+  ]
+}

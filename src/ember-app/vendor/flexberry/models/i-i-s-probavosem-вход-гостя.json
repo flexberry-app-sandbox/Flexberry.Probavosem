@@ -1,0 +1,82 @@
+﻿{
+  "name": "IISProbavosemВходГостя",
+  "modelName": "i-i-s-probavosem-вход-гостя",
+  "className": "ВходГостя",
+  "nameSpace": "IIS.Probavosem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрГостей",
+      "relatedTo": "i-i-s-probavosem-регистр-гостей",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регистрВхода",
+      "relatedTo": "i-i-s-probavosem-регистр-входа",
+      "inverse": "входГостя"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВходГостяE",
+      "modelName": "i-i-s-probavosem-вход-гостя",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "РегистрГостей",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегистрГостей.Карта",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "кодКарты",
+                  "caption": "Карта",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "карта",
+              "relatedTo": "i-i-s-probavosem-карта",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "ФИО",
+          "name": "регистрГостей",
+          "relatedTo": "i-i-s-probavosem-регистр-гостей",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

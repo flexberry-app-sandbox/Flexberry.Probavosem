@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Карта",
+      "projection": "КартаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регистр гостей",
+  "name": "IISProbavosemРегистрГостейE",
+  "className": "РегистрГостейE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probavosem-регистр-гостей",
+      "modelProjection": "РегистрГостейE"
+    }
+  ]
+}

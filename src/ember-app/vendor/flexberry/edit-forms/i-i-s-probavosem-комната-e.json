@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Комната",
+  "name": "IISProbavosemКомнатаE",
+  "className": "КомнатаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probavosem-комната",
+      "modelProjection": "КомнатаE"
+    }
+  ]
+}

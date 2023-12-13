@@ -1,0 +1,65 @@
+﻿{
+  "applicationCaption": "Probavosem",
+  "applicationTitle": "Probavosem",
+  "items": [
+    {
+      "link": null,
+      "menuName": "отель",
+      "caption": "Отель",
+      "title": "Отель",
+      "children": [
+        {
+          "link": "i-i-s-probavosem-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probavosem-карта-l",
+          "menuName": null,
+          "caption": "Карта",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probavosem-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probavosem-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": null,
+          "menuName": "документы",
+          "caption": "Документы",
+          "title": "Документы",
+          "children": [
+            {
+              "link": "i-i-s-probavosem-регистр-входа-l",
+              "menuName": null,
+              "caption": "Регистрация Входа",
+              "title": "Регистр входа",
+              "children": null
+            },
+            {
+              "link": "i-i-s-probavosem-регистр-гостей-l",
+              "menuName": null,
+              "caption": "Регистрация Гостей",
+              "title": "Регистр гостей",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,1 @@
+docker-compose -p probavosem-java down

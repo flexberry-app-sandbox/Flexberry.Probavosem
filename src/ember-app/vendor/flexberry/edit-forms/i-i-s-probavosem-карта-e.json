@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Карта",
+  "name": "IISProbavosemКартаE",
+  "className": "КартаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probavosem-карта",
+      "modelProjection": "КартаE"
+    }
+  ]
+}
